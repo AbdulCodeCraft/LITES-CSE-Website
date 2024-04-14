@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+    .navbar-section a {
+      color: #eeeeee;
+      text-decoration: none;
+    }
+    /* navbar section */
+
+    .navbar-section {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      justify-content: space-between;
+      /* background-color:rgba(66, 9, 9, 0.7); */
+      background-color: #00adb5;
+      padding: 10px 20px;
+    }
+    .navbar-section ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: relative;
+    }
+    .navbar-section ul li a {
+      margin-right: 70px;
+      font-weight: 500;
+      transition: all 0.42s ease;
+    }
+    .navbar-section ul li {
+      list-style: none;
+      padding-top: 10px;
+    }
+    .navbar-section ul li a:hover {
+      color: rgb(23, 31, 39);
+      transition: all 0.42s ease;
+    }
+    .navbar-section img {
+      width: 60px;
+    }
+    #Achievements {
+      background-image: url(/assets/images/Achievement-Background.avif);
+      height: 100vh;
+      background-size: cover;
+      background-repeat: none;
+    }
+    .achievement-content {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      padding: 0px 50px;
+
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .achievement-content h1 {
+      font-size: 40px;
+      color: #eeeeee;
+    }
+
+    .achievement-content p {
+      line-height: 30px;
+      color: #eeeeee;
+      font-size: 18px;
+      font-style: italic;
+    }
+    .symposium {
+      background-color: #00adb5;
+      padding: 0px 50px;
+    }
+    .symposium h1 {
+      text-align: center;
+      padding: 20px;
+      font-family: "Plus Jakarta Sans", sans-serif;
+    }
+    .hackothon {
+      background-color: #00adb5;
+      text-align: center;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      padding: 50px;
+    }
+    .hackothon h1 {
+      padding-bottom: 20px;
+    }
+    .card {
+      background-color: #222831;
+      color: #eeeeee;
+      border-radius: 20px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .card:hover {
+      box-shadow: rgba(56, 11, 134, 0.35) 0px 5px 15px;
+    }
+    .footer {
+      position: relative;
+      width: 100%;
+      background: #171f27;
+      min-height: 100px;
+      padding: 20px 50px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .social-icon,
+    .menu {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+      flex-wrap: wrap;
+    }
+
+    .social-icon__item,
+    .menu__item {
+      list-style: none;
+    }
+
+    .social-icon__link:hover {
+      transform: translateY(-10px);
+    }
+
+    .menu__link {
+      font-size: 1.2rem;
+      color: #fff;
+      margin: 0 20px;
+      display: inline-block;
+      transition: 0.5s;
+      text-decoration: none;
+      opacity: 0.75;
+      font-weight: 300;
+    }
+
+    .menu__link:hover {
+      opacity: 1;
+      color: #00adb5;
+    }
+
+    .footer p {
+      color: #fff;
+      margin: 15px 0 10px 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+    .github {
+      color: #00adb5;
+      transition: all 0.42s ease;
+      text-decoration: none;
+    }
+    .github :hover {
+      color: #00adb5;
+      transition: all 0.42s ease;
+    }
+  </style>
+  <body>
+    <section class="navbar-section">
+      <img src="assets/images/logo.png" alt="" />
+      <ul>
+        <li><a href="index.html#AboutUs">About Us</a></li>
+        <li><a href="index.html#InnovativeClubs">Innovative Clubs</a></li>
+        <li><a href="index.html#MeetOurFaculty">Meet Our Faculty</a></li>
+        <li><a href="studentProfile.html">Achievements</a></li>
+        <li>
+          <a href="studentProfile.html">Student Profile</a>
+        </li>
+      </ul>
+    </section>
+    <section id="Achievements">
+      <div class="achievement-content">
+        <h1>Achievements</h1>
+        <p>
+          Welcome to the Achievement Page of the Computer Science and
+          Engineering Department! At our department, we pride ourselves on our
+          significant accomplishments in national-level symposiums, academic
+          excellence, and hackathons. With unwavering support and guidance from
+          our esteemed Head of Department (HOD) and dedicated faculty members,
+          we've continually excelled in various fields. Our participation in
+          national-level symposiums has not only showcased our talents but also
+          earned us recognition among peers. Additionally, our academic
+          achievements reflect our commitment to excellence in education and
+          research. Moreover, our triumphs in hackathons demonstrate our
+          innovative prowess and problem-solving skills. We attribute our
+          success to the relentless encouragement and mentorship provided by our
+          HOD and faculty, who have played a pivotal role in nurturing our
+          talents and guiding us towards achievement.
+        </p>
+      </div>
+    </section>
+
+    <section class="symposium">
+      <h1>Symposium Stars</h1>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="assets/images/achievements/abdul.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Abdul Rahman & Manimaran (2nd CSE)</h5>
+              <p class="card-text">
+                Secured the second prize in the paper presentation event at St
+                Xavier College, Nagercoil, during the Enigma 24 Symposium. Their
+                presentation focused on the topic of “Plant Disease Detection
+                Using Deep Learning.” 🌱📄🏆
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/achievements/shyam.jpg"card-img-top"
+            alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shyam & Kishore (2nd CSE)</h5>
+              <p class="card-text">
+                Clinched the first prize in the paper presentation event at St
+                Xavier College, Nagercoil, during the Enigma 24 Symposium. Their
+                presentation delved into the topic of “Keylogger Tools for
+                Hacking.” 🏆🔐💻
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="assets/images/achievements/thowfik.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Thowfick & Rahul (3rd CSE)</h5>
+              <p class="card-text">
+                The first prize winners during the Xtreme 2024 Symposium held at
+                Francis Xavier Engineering College in Tirunelveli. Their
+                remarkable achievement was in the Short Film Competition. 🏆🎥🎬
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="assets/images/achievements/sahana.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sahana (3rd CSE)</h5>
+              <p class="card-text">
+                Secured the second prize in the PPT Presentation competition
+                held at Arunachala College of Engineering for Women. Her
+                insightful presentation on Mixed Reality impressed the judges
+                and showcased her expertise in the field.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="assets/images/achievements/gnayana.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gnana Vincy (3rd CSE)</h5>
+              <p class="card-text">
+                Secured the third prize in the Poster Presentation competition
+                held at Arunachala College of Engineering for Women. Her
+                insightful poster showcased her expertise in the field and
+                impressed the judges.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hackothon">
+      <h1>Hackothon Hero's</h1>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="assets/images/achievements/keerthika.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Keerthika & Team</h5>
+              <p class="card-text">
+                Keerthika, Nandhini Baby, and Shiny participated in the TANCAM
+                Hackathon for Women in Engineering held at Rajalakshmi
+                Engineering College in Chennai. Their project focused on
+                creating an automatic water irrigation system using IoT.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#AboutUs">About Us</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#InnovativeClubs">Innovative Clubs</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#MeetOurFaculty">Meet Our Faculty</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="Achievement.html">Achievements</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="studentProfile.html">Student Profile</a>
+        </li>
+      </ul>
+      <p>
+        &copy;2024
+        <a href="https://github.com/AbdulCodeCraft" class="github" title="click to Source code"
+          >AbdulCodeCraft</a
+        >
+        | Design & Developed by Abdul Rahman.
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

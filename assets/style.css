@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* css resetting */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    /* color: #EEEEEE; */
+    list-style: none;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #222831;
+    color: #eeeeee;
+}
+.navbar-section a{
+     color: #EEEEEE;
+}
+/* navbar section */
+
+.navbar-section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#00ADB5;
+    padding: 0px 20px;
+   
+}
+.navbar-section ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-section ul li a{
+    margin-right: 70px;
+    font-weight: 500;
+    transition: all 0.42s ease;
+    
+}
+
+.navbar-section ul li a:hover{
+    color: #222831;
+    transition: all 0.42s ease;
+}
+.navbar-section img{
+    width: 60px;
+}
+
+/* .about-section */
+
+.about-section{
+   padding: 0px 20px;
+}
+.about-section h1{
+   font-size: 60px;
+   padding: 40px 0px;
+   text-align: center;
+   
+}
+.about-section h1 span{
+    color: #00ADB5;
+}
+
+/* vision and mission */
+.vs{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(0, 173, 181,0.1);
+    margin-bottom: 20px;
+}
+.vs h1{
+    color: #56eace;
+}
+.vision-mission2{
+    display: grid;
+   
+    gap: 40px;
+    margin: 40px 80px;
+    text-align: center;
+}
+.vision-mission2 h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+    
+}
+.vision-mission2 p{
+    line-height: 27px;
+    font-style: italic;
+  
+}
+
+/* program outcomes */
+
+.program-outcomes .main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px 20px;
+    gap: 40px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.main div{
+    background-color: #00ADB5;
+    padding: 20px ;
+    border-radius: 10px;
+    scale: 1;
+    transition: all 0.42s ease;
+    width: 430px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main div:hover{
+    scale: 1.05;
+    transition: all 0.42 ease;
+}
+.main div h1{
+    color: #171f27;
+}
+.program-outcomes .headline{
+    font-size: 35px;
+    text-align: center;
+}
+
+/* innovative club */
+.innovative-club{
+    padding: 0px 20px;
+}
+.innovative-club h1{
+   text-align: center;
+}
+
+.innovative-club img{
+    width: 200px;
+    border-radius: 20px;
+}
+#MeetOurFaculty{
+    padding: 0%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #EEEEEE ;
+    color: #171f27;
+    padding: 0px 30px;
+    border-radius: 20px;
+    margin: 20px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 1s ease;
+}
+.card:hover{
+     transition: all 1s ease;
+     background: linear-gradient(to right,#00ADB5,pink);
+}
+.innovative-club h1{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+/* meet out faculty */
+.faculty-section{
+    background-color: #EEEEEE;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    
+}
+
+.faculty-section h1{
+    color: #171f27;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+  
+    height: 80px;
+   
+}
+.faculty-heading{
+    margin: 20px 0px;
+
+}
+.faculty-card{
+    background-color: red;
+    width: 300px;
+    height: 225px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #171f27;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(164, 97, 227, 0.35) 0px 5px 15px; */
+   
+    transition: all 1s ease;
+}
+.faculty-card:hover{
+    transform: skew(2deg);
+    /* transform: translate(23px); */
+    transition: all 1s ease;
+    
+}
+.faculty-card img{
+   width: 150px;
+   border-radius: 50%;
+   box-shadow: rgba(164, 97, 227, 0.35) 0px 5px 15px;
+}
+.faculty-card h1{
+    font-size: 23px;
+    color: #EEEEEE;
+}
+.faculty-section h2{
+    font-size: 20px;
+    font-style: italic;
+    color: #00ADB5;
+}
+.faculty-btn{
+    background-color: #EEEEEE;
+    color: #171f27;
+    padding: 8px 25px;
+    border-radius: 10px;
+    transition: all 0.42s ease;
+    margin-bottom: 20px;
+ 
+}
+.faculty-btn:hover{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    transition: all 0.42s ease;
+}
+.faculty-card-container{
+    display: flex;  
+}
+.parent-faculty-card div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 20px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #00ADB5;
+    color: #171f27;
+    min-height: 100px;
+    padding: 20px 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+ 
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 20px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+    color: #171f27;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .github{
+    color: #171f27;
+    transition: all 0.42s ease;
+  }
+  .github :hover{
+    color: #222831;
+    transition: all 0.42s ease;
+  }
+
+  
