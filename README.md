@@ -8,7 +8,7 @@ This website serves as a platform to showcase the various activities, clubs, fac
 
 ## Sections
 
-1. **Home:** Provides an overview of the CSE Department and its offerings.
+1. **About:** Provides an overview of the CSE Department and its offerings.
 2. **Innovative Clubs:** Highlights the various clubs and organizations within the department aimed at fostering innovation and collaboration among students.
 3. **Meet Our Faculty:** Introduces the esteemed faculty members of the CSE Department, along with their expertise and contributions.
 4. **Achievements:** Celebrates the accomplishments and milestones achieved by the department, faculty, and students.
