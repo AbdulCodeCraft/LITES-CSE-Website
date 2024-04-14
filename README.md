@@ -25,9 +25,9 @@ This website serves as a platform to showcase the various activities, clubs, fac
 Contributions to improve and enhance the website are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
+2. Create your feature branch.
+3. Commit your changes.
+4. Push to the branch.
 5. Create a new Pull Request.
 
 ## Author
